@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #6B5B95;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .package {
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 2rem;
+            padding: 2rem;
+            display: inline-block;
+            width: 22%;
+            vertical-align: top;
+            color: #000;
+        }
+        
+        .package h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .package p {
+            font-size: 0.9rem;
+        }
+        
+        .package ul {
+            padding-left: 1.5rem;
+        }
+        
+        .package a {
+            display: inline-block;
+            background-color: #6B5B95;
+            color: #fff;
+            padding: 0.8rem 1.2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+        
+        .package a:hover {
+            background-color: #533A7B;
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-title">Plans to Match Your Needs</div>
+    
+    <!-- Bronze Package -->
+    <div class="package">
+        <h1>Bronze: In-depth Analysis Package</h1>
+        <p>Delve into a comprehensive exploration of your brand's position in the digital landscape with our Bronze package.</p>
+        <ul>
+            <li>Tailored Strategic Review</li>
+            <li>Trend Mapping</li>
+            <li>Gap Identification</li>
+        </ul>
+        <p><strong>Price:</strong> $899/month</p>
+        <a href="https://buy.stripe.com/28o7tRgVSawr3gk3ce">Subscribe now →</a>
+    </div>
+
+    <!-- Silver Package -->
+    <!-- ... (similar structure as above, just replace content accordingly) ... -->
+
+    <!-- Gold Package -->
+    <!-- ... (similar structure as above, just replace content accordingly) ... -->
+
+    <!-- Customizable Package -->
+    <div class="package">
+        <h1>Custom Package</h1>
+        <p>Your description here. Tailor this package to fit your specific needs and offerings.</p>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <p><strong>Price:</strong> Your Price Here</p>
+        <a href="#">Subscribe now →</a>
+    </div>
+
+</body>
+</html>
